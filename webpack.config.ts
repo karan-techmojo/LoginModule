@@ -24,6 +24,14 @@ const webpackConfig: Configuration = {
                 exclude: /node_modules/,
                 use: 'babel-loader',
             },
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'postcss-loader',
+                ],
+            },
         ]
     },
     devServer: {
@@ -31,7 +39,6 @@ const webpackConfig: Configuration = {
         hot: true,
         open: true,
         liveReload: true,
-        
     },
     mode: "development",
     plugins: [
