@@ -8,9 +8,9 @@ interface Configuration extends WebpackConfig {
 }
 
 const webpackConfig: Configuration = {
-    entry: "./src/index.tsx",
+    entry: "./src/index.web.tsx",
     output: {
-        filename: "bundle.js",
+        filename: "bundle.web.js",
         path: path.resolve(__dirname, "dist"),
     },
     devtool: "source-map",

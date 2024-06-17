@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "LoginModule",
+    "slug": "login-module",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "entryPoint": "./src/index.native.tsx",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
