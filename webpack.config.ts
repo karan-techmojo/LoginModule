@@ -16,6 +16,9 @@ const webpackConfig: Configuration = {
     devtool: "source-map",
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".jsx", ".json"],
+        alias: {
+            'react-native': 'react-native-web',
+        },
     },
     module: {
         rules: [

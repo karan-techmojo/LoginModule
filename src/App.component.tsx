@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.component.css';
+import { View, Text, useWindowDimensions } from 'react-native';
 
 const AppComponent = () => {
+    const {
+        width,
+    } = useWindowDimensions();
+
     return (
-        <div className='text-red-800'>
-            Hello world
-        </div>
+        <View className='flex-1 justify-center items-center' >
+            <Text>Width: {width}</Text>
+        </View>
     );
 }
  

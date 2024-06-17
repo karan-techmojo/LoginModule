@@ -3,7 +3,7 @@
     "name": "LoginModule",
     "slug": "login-module",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "entryPoint": "./src/index.native.tsx",
     "splash": {
       "resizeMode": "contain",

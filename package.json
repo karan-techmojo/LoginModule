@@ -41,6 +41,8 @@
     "react-dom": "^18.2.0",
     "react-native": "^0.74.2",
     "react-native-web": "^0.19.12",
-    "@expo/metro-runtime": "~3.2.1"
+    "@expo/metro-runtime": "~3.2.1",
+    "nativewind": "^4.0.1",
+    "react-native-reanimated": "~3.10.1"
   }
 }
