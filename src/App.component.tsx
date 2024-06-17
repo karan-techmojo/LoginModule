@@ -3,7 +3,7 @@ import './App.component.css';
 
 const AppComponent = () => {
     return (
-        <div className='karan'>
+        <div className='text-red-800'>
             Hello world
         </div>
     );
