@@ -1,14 +1,13 @@
 import React from 'react';
-import { View, Text, useWindowDimensions } from 'react-native';
+import { View, Text } from 'react-native';
+import GameSearch from './components/game-search/GameSearch.component';
 
 const AppComponent = () => {
-    const {
-        width,
-    } = useWindowDimensions();
-
     return (
-        <View className='flex-1 justify-center items-center' >
-            <Text>Width: {width}</Text>
+        <View className='flex-1 justify-center items-center' style={{ backgroundColor:'#0C161C' }} >
+            <View className='flex mobile:hidden' >
+                <Text className='text-white' >Hello World</Text>
+            </View>
         </View>
     );
 }
